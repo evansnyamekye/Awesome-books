@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Book | Home</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- start of header -->
+    <header>
+        <nav>
+            <div class="container">
+                <a class="logo" href="index.html">Awesome Books</a>
+                <ul class="nav-links">
+                    <li id="list">List</li>
+                    <li id="addNew">Add new</li>
+                    <li id="contact">Contact</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <p id="time"></p>
+            <p id="message"></p>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- start of main -->
+    <main>
+        <section class="container">
+            <div id="homePage">
+                <h1>Welcome to Awesome Books!</h1>
+            </div>
+            <div id="listSection">
+                <h1>All Awesome Books</h1>
+                <div class="bookShelves" id="bookShelves"></div>
+            </div>
+        </section>
+        
+            <section class="container">
+                <div id="addSection" class="form">
+                    <h1>Add a New Book</h1>
+                    <form id="form">
+                        <input id="title" type="text" placeholder="Title" aria-label="bookName">
+                        <input id="author" type="text" placeholder="Author" aria-label="authorName">
+                        <button class="addButton" id="submitBtn" type="submit">Add</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="contact">
+                <div class="container" id="contactSection">
+                    <h1>Contact Information</h1>
+                    <p class="header">Do you have any question or just want to say "Hello" ? <br>
+                        You can reach out to us!
+                    </p>
+                    <ul class="contact-list">
+                        <li class="contact-list">Our email: mail@mail.com</li>
+                        <li class="contact-list">Our phone number: 004455779966</li>
+                        <li class="contact-list">Our address: Streetname 22, 84503 City, Country</li>
+                    </ul>
+                </div>
+            </section>
+    </main>
+    <!-- end of main -->
+
+    <!-- start of footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; Copyright Awesome Books</p>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- js link -->
+    <script src="js/main.js"></script>
+    <script src="js/date.js"></script>
+</body>
+
+</html>
